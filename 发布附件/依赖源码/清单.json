@@ -1,0 +1,175 @@
+{
+  "scope": "当前 Windows x64 发布的应用依赖、CPython 及原生库源码；HEIC 材料另见发布附件/说明.md",
+  "verification": "来源及版本/配方核对、归档 SHA-256；不承诺所有第三方库字节级重建",
+  "tkdnd": "2.10.1 固定提交 f73fd24c58218466f7c46c05e439f3f1d3929e42；7 个 Tcl 脚本内容匹配",
+  "archives": [
+    {
+      "name": "Pillow",
+      "version": "12.3.0",
+      "file": "pillow-12.3.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/1c/3d/bb7fca845737cf9d7dbde16ed1843984665ff2e0a518f5db43e77ec540b9/pillow-12.3.0.tar.gz",
+      "metadata_url": "https://pypi.org/pypi/Pillow/12.3.0/json",
+      "sha256": "3b8182a766685eaa002637e28b4ec8d6b18819a0c71f579bf0dbaa5830297cce",
+      "bytes": 47025035
+    },
+    {
+      "name": "ttkbootstrap",
+      "version": "2.2.0",
+      "file": "ttkbootstrap-2.2.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/d1/43/ce6e42ba60211097a9fe4125f2c43943a9f1d586fc650355aa98c1716461/ttkbootstrap-2.2.0.tar.gz",
+      "metadata_url": "https://pypi.org/pypi/ttkbootstrap/2.2.0/json",
+      "sha256": "3751bb4c5439025408387df11fd5c8599680284b44beb2fd985ba3fdd3ae60cb",
+      "bytes": 603405
+    },
+    {
+      "name": "tkinterdnd2",
+      "version": "0.6.2",
+      "file": "tkinterdnd2-0.6.2.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/3b/68/a7400de3c15038522b00540480a1273809ad4680b941e9c5f82520b27f2f/tkinterdnd2-0.6.2.tar.gz",
+      "metadata_url": "https://pypi.org/pypi/tkinterdnd2/0.6.2/json",
+      "sha256": "e015c2d863c9292e61d0294dea43010ff99c3cc9423e564676e04df413de9916",
+      "bytes": 729841
+    },
+    {
+      "name": "PyInstaller",
+      "version": "6.22.0",
+      "file": "pyinstaller-6.22.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/05/03/669d06735cf57d7e2e5dfc3c2e1643554b34c559eff21449c58172ca0335/pyinstaller-6.22.0.tar.gz",
+      "metadata_url": "https://pypi.org/pypi/PyInstaller/6.22.0/json",
+      "sha256": "8b0166fff4583b374bbe7fa044bf03ddc33cab0f792a665807d96048e63f060e",
+      "bytes": 4072247
+    },
+    {
+      "file": "libjpeg-turbo-3.1.4.1.tar.gz",
+      "url": "https://github.com/libjpeg-turbo/libjpeg-turbo/releases/download/3.1.4.1/libjpeg-turbo-3.1.4.1.tar.gz",
+      "sha256": "ecae8008e2cc9ade2f2c1bb9d5e6d4fb73e7c433866a056bd82980741571a022",
+      "bytes": 2528617
+    },
+    {
+      "file": "zlib-ng-2.3.3.tar.gz",
+      "url": "https://github.com/zlib-ng/zlib-ng/archive/refs/tags/2.3.3.tar.gz",
+      "sha256": "f9c65aa9c852eb8255b636fd9f07ce1c406f061ec19a2e7d508b318ca0c907d1",
+      "bytes": 2447397
+    },
+    {
+      "file": "xz-5.8.3.tar.gz",
+      "url": "https://github.com/tukaani-project/xz/releases/download/v5.8.3/xz-5.8.3.tar.gz",
+      "sha256": "3d3a1b973af218114f4f889bbaa2f4c037deaae0c8e815eec381c3d546b974a0",
+      "bytes": 2771455
+    },
+    {
+      "file": "tiff-4.7.1.tar.gz",
+      "url": "https://download.osgeo.org/libtiff/tiff-4.7.1.tar.gz",
+      "sha256": "f698d94f3103da8ca7438d84e0344e453fe0ba3b7486e04c5bf7a9a3fabe9b69",
+      "bytes": 4000609
+    },
+    {
+      "file": "libpng-1.6.58.tar.gz",
+      "url": "https://sourceforge.net/projects/libpng/files/libpng16/1.6.58/libpng-1.6.58.tar.gz/download",
+      "sha256": "8c9b05b675ca7301a458df2c2e46f26e1d41ff36b8863f8c33530bc58c2e6225",
+      "bytes": 1582074
+    },
+    {
+      "file": "brotli-1.2.0.tar.gz",
+      "url": "https://github.com/google/brotli/archive/refs/tags/v1.2.0.tar.gz",
+      "sha256": "816c96e8e8f193b40151dad7e8ff37b1221d019dbcb9c35cd3fadbfe6477dfec",
+      "bytes": 646315
+    },
+    {
+      "file": "freetype-2.14.3.tar.gz",
+      "url": "https://download.savannah.gnu.org/releases/freetype/freetype-2.14.3.tar.gz",
+      "sha256": "e61b31ab26358b946e767ed7eb7f4bb2e507da1cfefeb7a8861ace7fd5c899a1",
+      "bytes": 4134916
+    },
+    {
+      "file": "lcms2-2.19.1.tar.gz",
+      "url": "https://sourceforge.net/projects/lcms/files/lcms/2.19.1/lcms2-2.19.1.tar.gz/download",
+      "sha256": "bfc54f7bab59fbc921012014a8032e4cba4abd46db47d46b76416a8c0b2815c8",
+      "bytes": 5728743
+    },
+    {
+      "file": "openjpeg-2.5.4.tar.gz",
+      "url": "https://github.com/uclouvain/openjpeg/archive/v2.5.4.tar.gz",
+      "sha256": "a695fbe19c0165f295a8531b1e4e855cd94d0875d2f88ec4b61080677e27188a",
+      "bytes": 2157028
+    },
+    {
+      "file": "harfbuzz-14.2.1.tar.xz",
+      "url": "https://github.com/harfbuzz/harfbuzz/releases/download/14.2.1/harfbuzz-14.2.1.tar.xz",
+      "sha256": "a54a5d8e9380a41fbb762ce367bcbf7704792dfca0d93f1bbca86c5a57902e0e",
+      "bytes": 19559952
+    },
+    {
+      "file": "Pillow-12.3.0-git.tar.gz",
+      "url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/refs/tags/12.3.0",
+      "sha256": "d7ce60fdf8b3d3b4370ea213834d7c852b1ca16396d4e75e5046be815b11b2fb",
+      "bytes": 47120631
+    },
+    {
+      "file": "pywin32-b312.tar.gz",
+      "url": "https://codeload.github.com/mhammond/pywin32/tar.gz/refs/tags/b312",
+      "sha256": "71d959a9f18cf86001e5dca1e30d5046c187eabbb08112cb6ff01e04689f6f7b",
+      "bytes": 4807297
+    },
+    {
+      "file": "Python-3.11.6.tar.xz",
+      "url": "https://www.python.org/ftp/python/3.11.6/Python-3.11.6.tar.xz",
+      "sha256": "0fab78fa7f133f4f38210c6260d90d7c0d5c7198446419ce057ec7ac2e6f5f38",
+      "bytes": 20067204
+    },
+    {
+      "file": "libwebp-1.6.0.tar.gz",
+      "url": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+      "sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+      "bytes": 4296070
+    },
+    {
+      "file": "tcl-core-8.6.12.1-cpython.tar.gz",
+      "url": "https://codeload.github.com/python/cpython-source-deps/tar.gz/refs/tags/tcl-core-8.6.12.1",
+      "sha256": "5ffc5db0f9d47358b87f33f4f566452667c90d70a6cc9547b48de239db3ca7f8",
+      "bytes": 10398458
+    },
+    {
+      "file": "tk-8.6.12.1-cpython.tar.gz",
+      "url": "https://codeload.github.com/python/cpython-source-deps/tar.gz/refs/tags/tk-8.6.12.1",
+      "sha256": "c6cda9f333b499b9861db57a946b21fccce6d68b5ade74b53dd2045fbbcc5e45",
+      "bytes": 4509097
+    },
+    {
+      "file": "libffi-3.4.4-cpython.tar.gz",
+      "url": "https://codeload.github.com/python/cpython-source-deps/tar.gz/refs/tags/libffi-3.4.4",
+      "sha256": "9d802681adfea27d84cae0487a785fb9caa925bdad44c401b364c59ab2b8edda",
+      "bytes": 1375889
+    },
+    {
+      "file": "bzip2-1.0.8-cpython.tar.gz",
+      "url": "https://codeload.github.com/python/cpython-source-deps/tar.gz/refs/tags/bzip2-1.0.8",
+      "sha256": "ab8d1b0cc087c20d4c32c0e4fcf7d0c733a95da12cedc6d63b3f0a9af07427e2",
+      "bytes": 818771
+    },
+    {
+      "file": "xz-5.2.5-cpython.tar.gz",
+      "url": "https://codeload.github.com/python/cpython-source-deps/tar.gz/refs/tags/xz-5.2.5",
+      "sha256": "a15c168e39e87d750c3dc766edc7f19bdda57dacf01e509678467eace91ad282",
+      "bytes": 1744796
+    },
+    {
+      "file": "zlib-1.2.13-cpython.tar.gz",
+      "url": "https://codeload.github.com/python/cpython-source-deps/tar.gz/refs/tags/zlib-1.2.13",
+      "sha256": "ed0394d5358f3c4f2465fababac1bfd4e25205fc8c980c223b826bfbe56a528d",
+      "bytes": 1554520
+    },
+    {
+      "file": "defusedxml-0.7.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/0f/d5/c66da9b79e5bdb124974bfe172b4daf3c984ebd9c2a06e2b8a4dc7331c72/defusedxml-0.7.1.tar.gz",
+      "sha256": "1bb3032db185915b62d7c6209c5a8792be6a32ab2fedacc84e01b52c51aa3e69",
+      "bytes": 75520
+    },
+    {
+      "file": "tkdnd-2.10.1-f73fd24c58218466f7c46c05e439f3f1d3929e42.tar.gz",
+      "url": "https://codeload.github.com/Squiblydoo/tkdnd/tar.gz/f73fd24c58218466f7c46c05e439f3f1d3929e42",
+      "sha256": "51504bd76da9d793f4886d97d6c867041ae4fb65f6286d12bf8301abca7eb1fd",
+      "bytes": 1368372
+    }
+  ]
+}

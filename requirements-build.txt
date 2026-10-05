@@ -1,0 +1,15 @@
+# 本次 Windows x64 / CPython 3.11.6 构建环境的直接及打包依赖版本
+# 通用运行范围仍见 requirements.txt；此文件用于重建当前发布。
+Pillow==12.3.0
+pillow-heif==1.5.0
+ttkbootstrap==2.2.0
+tkinterdnd2==0.6.2
+pywin32==312
+defusedxml==0.7.1
+PyInstaller==6.22.0
+altgraph==0.17.5
+packaging==26.2
+pefile==2024.8.26
+pyinstaller-hooks-contrib==2026.6
+pywin32-ctypes==0.2.3
+setuptools==65.5.0

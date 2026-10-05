@@ -1,0 +1,25 @@
+# 图片处理工作台 —— 运行依赖
+#
+#   pip install -r requirements.txt
+#
+# 需要 Python 3.9 或更高：代码里用到 Executor.shutdown(cancel_futures=True)，
+# 这个参数是 3.9 才加的。Tk 是 Python 自带的，不用单独装。
+
+# ---------------------------------------------------------------- 必需
+# 图像解码与编码。下限卡在 9.1：Image.Resampling / Image.Transpose /
+# Image.Quantize 这三个枚举是那一版引入的，更早的版本里是模块级常量。
+pillow>=9.1
+
+# 界面主题与控件。bootstyle 参数和 ttk.Window(themename=) 从 1.0 起就是这套 API。
+ttkbootstrap>=1.0
+
+# ---------------------------------------------------------------- 可选
+# 下面两个装不装都能启动，缺了只是对应功能自动关闭，不会报错。
+# 只要必需项的话：pip install pillow ttkbootstrap
+
+# 拖拽导入。没有它窗口照常打开，但只能通过「浏览...」按钮选文件夹。
+tkinterdnd2
+
+# 读取 HEIC/HEIF（iPhone 拍的照片），转换时统一输出为 JPG。
+# 没有它这两种扩展名不会被扫描到，界面上「支持格式」那行会显示 HEIC ✗。
+pillow-heif
