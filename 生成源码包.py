@@ -16,7 +16,7 @@ def main():
     names = {
         '融合_v4ce.py', '完整自检.py', '检查打包许可.py', '检查翻译覆盖.py',
         '检查图片格式.py', '生成源码包.py', 'ImageWorkbenchV4ce.spec',
-        'README.md', 'CHANGELOG.md', '代码导读.md', '第三方许可声明.md',
+        'README.md', 'README.en.md', 'CHANGELOG.md', '代码导读.md', '第三方许可声明.md',
         '发布与重建.md', 'LICENSE', 'requirements.txt', 'requirements-build.txt',
         'logo.ico', '发布附件/依赖源码/清单.json',
     }

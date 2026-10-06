@@ -871,7 +871,7 @@ def _gitignored(name, patterns):
 
 
 # 随代码分发的文档。根目录下别的 .md / .html 都是开发过程材料，不进仓库。
-SHIPPED_DOCS = ('README.md', 'CHANGELOG.md', '代码导读.md', '第三方许可声明.md',
+SHIPPED_DOCS = ('README.md', 'README.en.md', 'CHANGELOG.md', '代码导读.md', '第三方许可声明.md',
                 '发布与重建.md')
 
 
